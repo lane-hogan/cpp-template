@@ -30,7 +30,7 @@ ECHO compiling...
  
 set wds=/wd4100 /wd4201 /wd4204 /wd4242 /wd4244 /wd4255 /wd4456 /wd4459 /wd4464 /wd4668 /wd4710 /wd4820 /wd4838 /wd5031 /wd5032 /wd5045 /wd4706
  
-set flags=/nologo /D_WIN32_WINNT=0x0501 /D_CRT_SECURE_NO_WARNINGS /MTd /Wall /MP /EHsc /EHa- /FC /TC /Fa /Zi
+set flags=/nologo /D_WIN32_WINNT=0x0501 /D_CRT_SECURE_NO_WARNINGS /MTd /W4 /WX /MP /EHsc /EHa- /FC /TC /Fa /Zi
 set inc=/I..\include /I..\single-header /I..\lib
 set lflags=/SUBSYSTEM:CONSOLE /OPT:REF /STACK:4194304 /LIBPATH:include
 set libs=user32.lib winmm.lib shell32.lib
